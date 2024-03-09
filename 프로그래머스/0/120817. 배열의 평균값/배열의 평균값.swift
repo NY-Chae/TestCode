@@ -1,5 +1,12 @@
 import Foundation
 
 func solution(_ numbers:[Int]) -> Double {
-    return Double(numbers.reduce(0,+))/Double(numbers.count)
+
+    var sum = 0 
+    
+    for i in 0..<numbers.count{
+        sum += numbers[i]
+    }
+    
+    return Double(sum) / Double(numbers.count) 
 }
