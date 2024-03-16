@@ -8,5 +8,6 @@ def solution(angle):
         answer = 3
     elif angle == 180:
         answer = 4
-    else: print("error")
+    else: 
+        answer = "error"
     return answer
