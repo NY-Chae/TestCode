@@ -10,5 +10,4 @@ func solution(_ angle:Int) -> Int {
     } else {
         return 1
     }
-    return 0
 }
