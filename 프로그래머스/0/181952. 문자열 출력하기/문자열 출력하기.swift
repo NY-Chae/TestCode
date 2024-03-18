@@ -1,3 +1,5 @@
 import Foundation
 
-print(readLine() ?? "")
+let yeon = readLine()!
+
+print(yeon)
