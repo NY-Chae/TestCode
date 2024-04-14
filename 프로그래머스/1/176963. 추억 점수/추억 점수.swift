@@ -7,7 +7,7 @@ func solution(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
     	dict[name[i]] = yearning[i]
     }
     
-    var sum = [Int]()
+    var answer = [Int]()
     
     for i in 0..<photo.count {
     	let arr = photo[i]
@@ -18,7 +18,7 @@ func solution(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
                                 	return dict[name]!
                                 }
                             }
-        sum.append(points.reduce(0,+))
+        answer.append(points.reduce(0,+))
     }
-    return sum
+    return answer
 }
